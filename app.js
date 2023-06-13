@@ -328,10 +328,14 @@ updateUser();
 console.log(user); 
 
 
+
+console.log("Part G: the very last function"); 
+
+
 const oldAndLoud = (person) => {
-    person.age++
+    person.age++ 
     person.name = person.name.toUpperCase(); 
 }
-oldAndLoud("user"); 
+oldAndLoud(user); 
 
 console.log(user); 
